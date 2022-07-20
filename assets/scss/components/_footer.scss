@@ -1,0 +1,14 @@
+.footer {
+    background-color: $footer;
+    height: 195px;
+
+    &-text {
+        text-align: center;
+        line-height: 195px;
+        color: $white;
+        font-size: 14px;
+    }
+    &-web {
+        color: $web;
+    }
+}

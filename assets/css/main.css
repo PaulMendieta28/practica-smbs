@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-style: solid;
+  font-weight: 700;
+  margin: 20px auto 0;
+  padding: 10px 58px 10px 57px;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  width: 286px;
+  max-width: 100%;
+  text-align: center;
+  line-height: 1.6;
+  padding: 30px 30px 30px 20px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin: 20px 2px 0 0;
+  color: #fff;
+  text-align: center;
+}
+.card.Accounting {
+  background-color: #478ac9;
+}
+.card.Business {
+  background-color: #83b9dc;
+}
+.card.Employment {
+  background-color: #e8b333;
+}
+
+.footer {
+  background-color: #333;
+  height: 195px;
+}
+.footer-text {
+  text-align: center;
+  line-height: 195px;
+  color: #fff;
+  font-size: 14px;
+}
+.footer-web {
+  color: #adcce9;
+}
+
+.Home {
+  background-color: #e0e5eb;
+}
+.Home-banner {
+  background-image: url("../../assets/image/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 562px;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .Home-banner {
+    height: 489px;
+    background-position: bottom;
+  }
+}
+.Home-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 22px;
+  margin-top: -173px;
+  grid-auto-flow: column;
+  place-items: center;
+  place-content: center;
+}
+@media (max-width: 900px) {
+  .Home-container {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, 336px);
+  }
+}
+.Home-section {
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+.Home-text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+.Home-web {
+  color: #478ac9;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

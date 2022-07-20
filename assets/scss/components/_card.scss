@@ -1,0 +1,34 @@
+.card {
+    width: 286px;
+    max-width: 100%;
+    text-align: center; 
+    line-height: 1.6;
+    padding: 30px 30px 30px 20px;
+    
+    &-title{
+        font-size: 1.5rem;
+        font-family: $font-secondary;
+        color: $white;
+        text-align: center;
+    }
+
+    &-text{
+        font-family: $font-primary;
+        font-style: italic;
+        margin: 20px 2px 0 0;
+        color: $white;
+        text-align: center;
+    }
+
+    &.Accounting{
+        background-color: $blue;
+    }
+    
+    &.Business{
+        background-color: $gray;
+    }
+    
+    &.Employment{
+        background-color: $yellow;
+    }
+}

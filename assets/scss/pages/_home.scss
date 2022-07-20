@@ -1,0 +1,47 @@
+.Home {
+    background-color: $background;
+
+    &-banner {
+        background-image: url('../../assets/image/image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 562px;
+        width: 100%;
+
+        @media (max-width: 900px){
+            height: 489px;
+            background-position: bottom;
+        }
+    }
+
+    &-container {
+        display: grid;
+        gap: 22px;
+        margin-top: -173px;
+        grid-auto-flow: column;
+        place-items: center;
+        place-content: center;
+
+        @media (max-width: 900px) {
+            grid-auto-flow: row;
+            grid-template-columns: repeat(auto-fill, 336px);
+        }
+    }
+
+    &-section {
+        padding-top: 30px;
+        padding-bottom: 55px;
+    }
+
+    &-text {
+        font-family: $font-primary;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    &-web {
+        color: $blue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
